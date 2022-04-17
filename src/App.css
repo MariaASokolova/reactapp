@@ -26,6 +26,12 @@
   color: #61dafb;
 }
 
+.linktocode {
+  margin-bottom: 10px;
+  font-size: small;
+  font-family: monospace;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
