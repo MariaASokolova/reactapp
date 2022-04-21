@@ -31,7 +31,9 @@ export default function SearchForm() {
   let form = (
     <form className="Form" onSubmit={handleSubmit}>
       <input type="search" placeholder="Enter a city.." onChange={updateCity} />
-      <button type="Submit">Search</button>
+      <button type="Submit" className="btn btn-success">
+        Search
+      </button>
     </form>
   );
 
