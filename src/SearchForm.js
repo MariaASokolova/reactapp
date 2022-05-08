@@ -30,7 +30,12 @@ export default function SearchForm() {
 
   let form = (
     <form className="Form" onSubmit={handleSubmit}>
-      <input type="search" placeholder="Enter a city.." onChange={updateCity} />
+      <input
+        type="search"
+        placeholder="Enter a city.."
+        autoFocus="on"
+        onChange={updateCity}
+      />
       <button type="Submit" className="btn btn-success">
         Search
       </button>

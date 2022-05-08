@@ -1,5 +1,7 @@
 .App {
   text-align: start;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -28,7 +30,7 @@
 
 .linktocode {
   margin-bottom: 10px;
-  font-size: small;
+  font-size: 10px;
   font-family: monospace;
 }
 
